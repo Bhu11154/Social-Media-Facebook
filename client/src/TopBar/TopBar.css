@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f2f5;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.se {
+  background-color: #f0f2f5;
+  padding-left: 15px;
+  padding-right: 20px;
+  transform: translateY(-5px);
+  font-size: 1rem;
+  border: none;
+  width: 280px;
+  border-radius: 20px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.se:focus {
+  outline: none;
+}
+
+.icon {
+  color: #0e7cc5;
+  margin-bottom: 5px;
+  margin-right: 8px;
+}
+
+.ic {
+  margin-right: 90px;
+  cursor: pointer;
+  color: #232425b9;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-size: 1rem;
+  height: 40px;
+  width: 50px;
+}
+
+.ic:hover {
+  background-color: #f0f2f5;
+  color: rgb(48, 48, 206);
+}
+
+.bar {
+  height: 55px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  z-index: 2;
+}
+
+.left {
+  padding-left: 25px;
+  margin-right: 30px;
+  display: flex;
+  flex: 3;
+}
+
+.middle {
+  display: flex;
+  flex: 4;
+}
+
+.right {
+  display: flex;
+  margin-left: 30px;
+  position: relative;
+  flex: 2;
+}
+
+.name {
+  margin-left: 40px;
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: bold;
+  left: 10px;
+  top: 5px;
+  cursor: pointer;
+}
+.logout {
+  margin-left: 120px;
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: bold;
+  right: 30px;
+  top: 5px;
+  cursor: pointer;
+}
+@media (max-width: 400px) {
+  .name {
+    display: none;
+  }
+}

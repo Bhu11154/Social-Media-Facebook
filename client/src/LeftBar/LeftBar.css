@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 10px;
+  flex: 1.5;
+}
+
+.ite {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+  margin: 10px;
+}
+.ite:hover {
+  background-color: #e4e6e9;
+}
+.ico {
+  margin-right: 8px;
+  margin-left: 10px;
+}
+.nam {
+  height: 40px;
+  padding-left: 20px;
+  font-weight: bold;
+  padding: 7px 10px 0 10px;
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 180px;
+  }
+}

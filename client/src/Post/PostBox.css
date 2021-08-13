@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,200&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hrLine {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userName {
+  position: absolute;
+  top: 10px;
+  font-weight: bold;
+}
+
+.Bu {
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 10px;
+  color: #1d8bf6;
+}
+.mes {
+  resize: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 200;
+  background-color: white;
+  font-weight: bold;
+  margin: 0 15px 15px 15px;
+}
+
+.ld {
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+.chatArea {
+  position: relative;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 5px;
+  width: 500px;
+  margin: 30px 0px 30px 75px;
+}
+
+.buttonLike {
+  cursor: pointer;
+}
+
+.postCh {
+  display: flex;
+  margin: 0;
+}
+
+.num {
+  margin-top: 3px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 5px;
+}
+
+.popEdit {
+  display: none;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: rgb(77, 77, 206);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  left: 270px;
+  top: -100px;
+}
+.popDelete {
+  display: none;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: rgb(25, 197, 48);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  left: 500px;
+  top: -100px;
+}
+.cross {
+  position: absolute;
+  top: 10px;
+  cursor: pointer;
+  right: 10px;
+}
+.cross:hover {
+  color: red;
+}
+.eff {
+  display: block;
+  top: 50px;
+}
+.time {
+  position: absolute;
+  top: 15px;
+  right: 100px;
+  font-size: 0.8rem;
+}
+@media (max-width: 400px) {
+  .chatArea {
+    width: 90%;
+  }
+  .eff {
+    z-index: 2;
+  }
+}

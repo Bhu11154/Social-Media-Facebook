@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.con {
+  flex: 1.5;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-right: 0;
+}
+
+.pic {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  margin-right: 12px;
+}
+
+.ele {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.Li {
+  margin: 15px 15px 0px 15px;
+}
+.sic {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.myList {
+  list-style: none;
+  display: flex;
+  margin-top: 10px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+.clist {
+  list-style: none;
+  display: flex;
+  position: relative;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.clist:hover {
+  background-color: #e4e6e9;
+  cursor: pointer;
+}
+
+.onlineName {
+  font-size: 1rem;
+  color: black;
+  font-weight: bold;
+  margin-top: 3px;
+}
+.green {
+  position: absolute;
+  background-color: rgb(7, 153, 7);
+  bottom: 5px;
+  left: 30px;
+  border-radius: 20px;
+  width: 10px;
+  height: 10px;
+}
+.el {
+  padding: 8px;
+}
+
+.word {
+  font-size: 1.2em;
+  color: #6c6e70;
+  font-weight: bold;
+  margin: 15px;
+}
+.info {
+  position: relative;
+}
+
+.ad {
+  width: 130px;
+  height: 130px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.nameinfo {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.site {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.8rem;
+  left: 0px;
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .con {
+    display: none;
+  }
+}
